@@ -1,0 +1,1 @@
+# myischool-teacher-reactnative
