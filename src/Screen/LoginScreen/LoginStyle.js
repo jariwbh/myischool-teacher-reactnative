@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
       fontSize:18,
       fontWeight:'bold',
       color:'white',
-      marginLeft:100
+      textAlign:'center'
     },
     arrowbtn:{
       height:20,
