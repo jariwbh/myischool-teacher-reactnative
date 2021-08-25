@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     viewCircularList:{
         borderColor:'#727272',
         borderWidth:1,
-        height:HEIGHT-520,
+        height:HEIGHT/4,
         width:WIDTH-50,
         borderRadius:15,
         margin:20,

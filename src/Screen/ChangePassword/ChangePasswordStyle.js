@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         height:50,
         justifyContent:'center',
         alignItems:'center',
-        marginTop:10,
+        marginTop:15,
         borderRadius:10,
     },
     changePasswordButtonText:{
@@ -39,9 +39,9 @@ const styles = StyleSheet.create({
         color:'#ffffff',       
     },
     bottomImage:{
-        marginTop:40,
+        marginTop:HEIGHT/5.4,
         height:150,
-        width:WIDTH,
+        width:WIDTH
     },
 });
 
