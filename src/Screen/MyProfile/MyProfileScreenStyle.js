@@ -15,37 +15,49 @@ const styles = StyleSheet.create({
     horizontalRectangle:{
         borderColor:'#7093DB',
         borderWidth:1,
-        height:HEIGHT-550,
+        height:HEIGHT/6,
         width:WIDTH-50,
-        marginTop:25,
-        marginLeft:22,
+        margin:25,
         borderRadius:25,
         flexDirection:'row',
     },
     profileImage:{
-        height:HEIGHT-580,
-        width:WIDTH-310,
+        height:HEIGHT/8,
+        width:WIDTH/4.8,
         marginTop:15,
         marginLeft:15,
+        borderRadius:15,
+        borderWidth:1,
+        borderColor:'#000000'
     },
     viewTextBody:{
-        marginTop:20,
+        
         alignItems:'flex-start',
         justifyContent:'center',
         width:WIDTH-60,
+        marginBottom:250
     },
     textstyle:{
         marginTop:15,
         marginLeft:30,
-        fontSize:13,
+        fontSize:14,
         color:'#A9A9A9'
     },
     textInput:{
-        marginLeft:25,
-        width:WIDTH-60,
+        //marginRight:30,
+        marginLeft:30,
+        width:WIDTH-50,
         marginBottom:5,
         fontSize:16,
+        color:'#000000',
+       
     },
+    iconStyle:{
+        marginTop:-50,
+        marginLeft:WIDTH-80,
+        marginBottom:15
+    }
+    
 });
 
 export default styles;

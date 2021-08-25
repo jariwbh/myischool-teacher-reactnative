@@ -32,22 +32,29 @@ const styles = StyleSheet.create({
         borderTopRightRadius:20,
         marginTop:25
     },
-    viewRound:{
-        marginLeft:180,
-        alignItems:'flex-end',
-        backgroundColor:'#CACACA',
-        height:90,width:90,
-        borderBottomRightRadius:50,
-        borderBottomLeftRadius:50,
-        borderTopLeftRadius:50,
-        borderTopRightRadius:50,
-        borderColor:'#ffffff',
+    // viewRound:{
+    //     marginLeft:200,
+    //     alignItems:'flex-end',
+    //     backgroundColor:'#CACACA',
+    //     height:130,width:130,
+    //     borderRadius:60,
+    //     borderColor:'#ffffff',
+    //     borderWidth:3,
+    //     marginTop:-35
+    // },
+    roundImage:{
+        marginLeft:WIDTH/2+100,
+       // alignItems:'flex-end',
+        height:HEIGHT/7.8,
+        width:WIDTH/4.8,
+        borderRadius:50,
+        borderColor:'#FFFFFF',
         borderWidth:3,
         marginTop:-35
     },
     viewSquare:{
-        height:HEIGHT-480,
-        width:WIDTH-240,
+        height:HEIGHT/3.5,
+        width:WIDTH/3+40,
         backgroundColor:'#ffffff',
         borderBottomRightRadius:20,
         borderBottomLeftRadius:20,
@@ -57,53 +64,54 @@ const styles = StyleSheet.create({
         alignItems:'center',
         borderColor:'#7093DB',
         borderWidth:1,
-        marginTop:-80
+        marginTop:-90,
     },
     viewSquareImage:{
-        height:HEIGHT-600,
-        width:83,
+        height:HEIGHT/7+5,
+        width:WIDTH/4,
         marginTop:20,
     },
     viewSquareNumeric:{
         fontWeight:'bold',
-        fontSize:30,
+        fontSize:25,
         marginTop:10,
     },
     viewSquareText:{
-        fontSize:18,
+        fontSize:15,
         color:'#AEAEAE',
     },
     viewBackBody:{
         backgroundColor:'#ffffff',
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        marginTop:80,
-       
+        width:WIDTH,
+        height:HEIGHT+200,
+        marginTop:HEIGHT/10
     },
     viewShortSquare:{
-        height:HEIGHT-540,
-        width:WIDTH-240,
+        height:HEIGHT/5,
+        width:WIDTH/3+40,
         backgroundColor:'#F5F6FC',
         borderBottomRightRadius:20,
         borderBottomLeftRadius:20,
         borderTopLeftRadius:20,
         borderTopRightRadius:20,
-        marginLeft:20,
-        margin:10,
+        marginLeft:22,
         alignItems:'center',
         marginTop:15
     },
     viewShortSquareImage:{
-        height: HEIGHT-640,
+        height: HEIGHT/15,
         width:75,
         marginLeft:15,
-        marginTop:25,
+        marginRight:15,
+        marginTop:30,
 
     },
     viewShortSquareText:{
         fontSize:17,
-        marginTop:18,
-        marginLeft:15,
+        marginTop:25,
+        marginLeft:15
     },
 });
 export default styles;

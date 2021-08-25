@@ -16,15 +16,15 @@ const styles = StyleSheet.create({
     horizontalImage:{
         margin:10,
         marginRight:-10,
-        height:HEIGHT-500,
-        width:WIDTH-230,
+        height:HEIGHT/4,
+        width:WIDTH/2.2,
         borderRadius:25,
     },
     verticalImage:{
         margin:10,
         marginRight:-10,
-        height:HEIGHT-450,
-        width:WIDTH-230,
+        height:HEIGHT/3,
+        width:WIDTH/2.2,
         borderRadius:25,
     },
 });
